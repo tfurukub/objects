@@ -41,7 +41,7 @@ argv = sys.argv
 #botocore.session.Session().set_debug_logger()
 ACCESS_KEY='T1tmErkX_yn9swOE_K7VileHStVEjEU0'
 SECRET_KEY='RxCBHFailgCu6TSR0jnrRIaWLHmOusjP'
-SERVER = 'http://10.149.2.53'
+SERVER = 'http://xx.xx.xx.xx'
 session = Session(aws_access_key_id=ACCESS_KEY,aws_secret_access_key=SECRET_KEY)
 s3 = session.resource('s3')
 client = session.client('s3',endpoint_url=SERVER)
